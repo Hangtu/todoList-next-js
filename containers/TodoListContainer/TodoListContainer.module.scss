@@ -1,0 +1,23 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.container {
+    margin: 0px 0 100px 0;
+    @include media-breakpoint-up(md) {
+        margin: 25px 0;
+    }
+    .header {
+        padding: 15px 0;
+        background-color: #000;
+        color: white;
+        div {
+            text-transform: uppercase;
+        }
+    }
+}
+
+.spinner {
+    text-align: center;
+    margin-top: 50px;
+}

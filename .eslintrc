@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "linebreak-style": 0,
+    "no-unused-vars": "error",
+    "quotes": [2, "single"],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}

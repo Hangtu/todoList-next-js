@@ -1,0 +1,52 @@
+{
+    "name": "next-js-todolist-app",
+    "version": "0.1.0",
+    "private": true,
+    "jest": {
+        "moduleNameMapper": {
+            "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+        }
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "format": "npm run prettier -- --write",
+        "prettier": "prettier \"**/*.+(js|jsx|test|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)\"",
+        "eject": "react-scripts eject",
+        "test": "jest --silent --env=jsdom --detectOpenHandles",
+        "coverage": "jest --coverage"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "bootstrap": "^5.0.2",
+        "core-js": "^3.15.2",
+        "eslint-config-airbnb": "^18.2.1",
+        "immer": "^9.0.5",
+        "next": "11.0.1",
+        "prop-types": "^15.7.2",
+        "react": "17.0.2",
+        "react-bootstrap": "^2.0.0-beta.4",
+        "react-dom": "17.0.2",
+        "react-scripts": "^4.0.3",
+        "regenerator-runtime": "^0.13.9"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^12.0.0",
+        "@testing-library/user-event": "^12.1.10",
+        "babel-jest": "^27.0.6",
+        "eslint": "7.31.0",
+        "eslint-config-next": "11.0.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-prettier": "^3.4.0",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^27.0.6",
+        "jest-enzyme": "^7.1.2",
+        "prettier": "2.3.2",
+        "react-test-renderer": "^17.0.2",
+        "sass": "^1.36.0"
+    }
+}
