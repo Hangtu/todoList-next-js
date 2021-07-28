@@ -16,7 +16,7 @@
         "prettier": "prettier \"**/*.+(js|jsx|test|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)\"",
         "eject": "react-scripts eject",
         "test": "jest --silent --env=jsdom --detectOpenHandles",
-        "coverage": "jest --coverage"
+        "coverage": "jest --coverage --env=jsdom"
     },
     "dependencies": {
         "axios": "^0.21.1",
